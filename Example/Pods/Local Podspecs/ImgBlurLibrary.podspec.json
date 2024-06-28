@@ -1,0 +1,22 @@
+{
+  "name": "ImgBlurLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of ImgBlurLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shridhardamle/ImgBlurLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shridhardamle": "sachith.raomohan@hcl.com"
+  },
+  "source": {
+    "git": "https://github.com/shridhardamle/ImgBlurLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ImgBlurLibrary/Classes/**/*"
+}

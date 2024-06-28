@@ -1,0 +1,6 @@
+framework module ImgBlur {
+  umbrella header "ImgBlur.h"
+  export *
+
+  module * { export * }
+}

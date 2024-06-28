@@ -1,0 +1,78 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ImgBlur",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ImgBlur"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImgBlur",
+        "printedName": "ImgBlur",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "blurrAndGetTheImage",
+            "printedName": "blurrAndGetTheImage(image:blurValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ImgBlurAAC19blurrAndGetTheImage5image9blurValueSo7UIImageCAG_SdtFZ",
+            "mangledName": "$s7ImgBlurAAC19blurrAndGetTheImage5image9blurValueSo7UIImageCAG_SdtFZ",
+            "moduleName": "ImgBlur",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7ImgBlurAAC",
+        "mangledName": "$s7ImgBlurAAC",
+        "moduleName": "ImgBlur",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

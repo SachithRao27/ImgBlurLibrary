@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
-  s.source_files = 'Frameworks/**/*'
+  # s.source_files = 'Frameworks/**/*'
   s.ios.vendored_frameworks = 'Frameworks/ImgBlur.xcframework'
   s.preserve_paths =  'Frameworks/ImgBlur.xcframework'
   

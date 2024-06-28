@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImgBlurLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ImgBlurLibrary is used to blur the image.'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
-  s.platform = :ios, '12.0'
+  s.platform = :ios, "12.0"
   # s.source_files = 'Frameworks/**/*'
-  s.ios.vendored_frameworks = 'ImgBlur.xcframework'
+  s.ios.vendored_frameworks = 'Frameworks/ImgBlur.xcframework'
+  s.preserve_paths =  'Frameworks/ImgBlur.xcframework'
   
   # s.resource_bundles = {
   #   'ImgBlurLibrary' => ['ImgBlurLibrary/Assets/*.png']

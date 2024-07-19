@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //Code to blur image
         let image = ImgBlur.blurrAndGetTheImage(image: self.sampleImgView.image!, blurValue: 50.0)
         self.sampleImgView.image = image
     }
